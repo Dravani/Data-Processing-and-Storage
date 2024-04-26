@@ -63,3 +63,10 @@ inMemoryDB.commit();
 // Retrieve the value of key "A"
 System.out.println(inMemoryDB.get("A")); // Output: 5
 ```
+
+There is already a main function with usage in there. If you want to test the commands that cause errors, uncomment them.
+
+
+# Modifications
+
+I think the instructions for the project need to be more clear, especially for people taking this class without as much coding experience. It took a while for me to figure out how to make a method with a int return type, return a null, when normally it should return -1. It would have been nice to have some clearer instructions on that. For grading, I think providing a suite of unit tests to evaluate the correctness of the implementation would be very useful. Test cases should cover various scenarios, including normal transaction operations, error handling, concurrency scenarios, and boundary cases.
